@@ -1,5 +1,6 @@
 body{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(154%2c 236%2c 234%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c169 C 72%2c153.6 216%2c94.8 360%2c92 C 504%2c89.2 576%2c153 720%2c155 C 864%2c157 936%2c102.2 1080%2c102 C 1224%2c101.8 1368%2c143.6 1440%2c154L1440 560L0 560z' fill='rgba(58%2c 203%2c 198%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c428 C 96%2c420.8 288%2c373.8 480%2c392 C 672%2c410.2 768%2c527.8 960%2c519 C 1152%2c510.2 1344%2c382.2 1440%2c348L1440 560L0 560z' fill='rgba(12%2c 187%2c 181%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    /*background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(154%2c 236%2c 234%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c169 C 72%2c153.6 216%2c94.8 360%2c92 C 504%2c89.2 576%2c153 720%2c155 C 864%2c157 936%2c102.2 1080%2c102 C 1224%2c101.8 1368%2c143.6 1440%2c154L1440 560L0 560z' fill='rgba(58%2c 203%2c 198%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c428 C 96%2c420.8 288%2c373.8 480%2c392 C 672%2c410.2 768%2c527.8 960%2c519 C 1152%2c510.2 1344%2c382.2 1440%2c348L1440 560L0 560z' fill='rgba(12%2c 187%2c 181%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");*/
+    background-image: url("/Imagens/background2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -19,11 +20,11 @@ body{
 }
 
 .header__logo{
-    color: #007272;
-    font-size: 46px;
-    text-transform: uppercase;
-    margin-left: 16px;
-    letter-spacing: 2px;
+  color: #0CBBB5;
+  font-size: 46px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  letter-spacing: 2px;
 }
 
 .header__nav ul{
@@ -47,7 +48,7 @@ body{
 }
 
 a.header__nav--active{
-    background-color: #3ACBC6;
+    background-color: #177374;
     color: #ffffff;
     pointer-events: none;
 }
@@ -67,55 +68,55 @@ a.header__nav--active{
 /*footer*/
 
 .rodape{
-    background-color: #0B7372;
-    color: #fff;
-    padding: 5px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    
-  }
+  background-color: #ffffff0a;
+  color: #fff;
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   
+}
+
+
+footer{
+  display: flex;
+  background-color: #ffffff0a;
+  padding: 16px;
   
-  footer{
-    display: flex;
-    background-color: #ffffff0a;
-    padding: 16px;
-    
-  }
+}
+
+.header__logo_footer{
+  color: #0CBBB5;
+  font-size: 46px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  margin-right: 20px;
+  letter-spacing: 2px;
+  align-items: center;
+
+}
+
+.header_footer {
+  display: flex;
+  list-style-type: none;
+  font-size: 16 px;
+  gap: 16px;
   
-  .header__logo_footer{
-    color: #007272;
-    font-size: 46px;
-    text-transform: uppercase;
-    margin-left: 16px;
-    margin-right: 20px;
-    letter-spacing: 2px;
-    align-items: center;
+}
+
+.ul_footer{
+  padding: 20px;
+  margin-left: 80px;
+  list-style-type: none;
   
-  }
-  
-  .header_footer {
-    display: flex;
-    list-style-type: none;
-    font-size: 16 px;
-    gap: 16px;
-    
-  }
-  
-  .ul_footer{
-    padding: 20px;
-    margin-left: 80px;
-    list-style-type: none;
-    
-  }
-  
-  .ul_footer a{
-    text-decoration: none;
-    color: white;
-  }
-  
-  .prim_li{
-    margin-bottom: 8px;
-    font-size: 20px;
-  }
+}
+
+.ul_footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.prim_li{
+  margin-bottom: 8px;
+  font-size: 20px;
+}
